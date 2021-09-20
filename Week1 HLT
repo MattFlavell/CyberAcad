@@ -1,0 +1,44 @@
+#Matthew Flavell Week 1 Homework
+
+
+
+
+#First Task- Meal sentence
+#Could not get the commas and spacing to work with the '+'
+
+#Variables
+FavouriteStarter = input("What is your favourite starter? ")
+FavouriteMain = input("What is your favourite main? ")
+FavouriteDessert = input("What is your favourite dessert? ")
+FavouriteDrink = input("What is your favourite drink? ")
+
+#Syntax
+FavouriteStarter
+FavouriteMain
+FavouriteDessert
+FavouriteDrink
+
+print("Your favourite meal is" ,FavouriteStarter, FavouriteMain, FavouriteDessert, "with a glass of", FavouriteDrink)
+
+
+#Second Task- Motorbike depreciation
+
+#It does the maths correctly but the while loop is ineffective, not sure how to link the iteration function and the loop together
+
+#Variables
+BikeCost = int(2000)
+Depreciation = float(0.9)
+Year1 = (BikeCost*Depreciation)
+Year2 = (Year1*Depreciation)
+Year3 = (Year2*Depreciation)
+Year4 = (Year3*Depreciation)
+Year5 = (Year4*Depreciation)
+Year6 = (Year5*Depreciation)
+Year7 = (Year6*Depreciation)
+Years = (Year1, Year2, Year3, Year4, Year5, Year6, Year7)
+Iteration = iter(Years)
+#Syntax
+while BikeCost >= 2500:
+  print(next(Iteration))
+else:
+    print("The bike is now worth less than £1000")
