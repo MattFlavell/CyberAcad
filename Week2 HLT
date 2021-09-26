@@ -1,0 +1,63 @@
+#Matthew Flavell Week 2 Python Home Learning Tasks
+
+
+
+#Task 1
+# number = 1
+# for number in range (4,52,4): #(start, end, increment)
+#     print(number)
+
+#-------------------------------------------------------------------------------
+
+
+#Task 2
+# number = 1
+# for number in range (5, 65, 5):
+#     print (number)
+
+
+#--------------------------------------------------------------------------------
+# #Task 3
+# import random
+#
+# num = random.randint(1, 20)
+# print(num)
+# print("I am thinking of a number between 1 and 20")
+#
+# def randnum():
+#     guesses = 0
+#     while guesses < 6:
+#         Guess = int(input("Take a guess: "))
+#         if Guess < num:
+#             print ("Your guess is too low!")
+#
+#         if Guess > num:
+#             print ("Your guess is too high!")
+#
+#         if Guess == num:
+#             print ("You guessed correctly!")
+#             break
+#         else:
+#             print ("Try again!")
+#             guesses = guesses+1
+#         if guesses == 6:
+#             print ("You ran out of guesses! Better luck next time!")
+#             print ("The number was...", num)
+#
+# randnum()
+
+
+#-------------------------------------------------------------------------------------
+# #Task 4
+#Could not work out how to limit it to only 12X instead of running through the whole loop to 144
+
+# num = int(input("Pick a times table: "))
+# 
+# def multiply(num):
+# 
+#         for num in range (0,156,num):
+#             print (num)
+# 
+# 
+# 
+# multiply(num)
