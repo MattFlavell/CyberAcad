@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+		<h1><center>My Fitness Tracker</center></h1>
+		<h2><center>Fitness tracking wearable technology</center></h2>
+		<h3>Do you need to monitor:</h3>
+		<ul>
+			<li>your heart rate?</li>
+			<li>your running speed?</li>
+			<li>total calories burned?</li>
+		<p>All of the above in a sturdy, sporty, and comfortable design. Displays time,
+			 steps, and other stats on your wristband. Wirelessly syncs with your mobile
+			 device using Bluetooth to upload to our tracking website!</p>
+		<p> Click the link below to find out more:</p>
+		<a href = "www.myfitnesstracker.co.uk"> www.myfitnesstracker.co.uk </a>
+		<img src = "HTML HLT Img.jpeg">
+  </body>
+</html>
+
